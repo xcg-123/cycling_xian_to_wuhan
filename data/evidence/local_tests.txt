@@ -1,0 +1,12 @@
+test_distance_and_missing_height (test_pipeline.Pipeline.test_distance_and_missing_height) ... ok
+test_elevation_gain_loss (test_pipeline.Pipeline.test_elevation_gain_loss) ... ok
+test_empty_rejected (test_pipeline.Pipeline.test_empty_rejected) ... ok
+test_graph_restriction_filter (test_pipeline.Pipeline.test_graph_restriction_filter) ... ok
+test_no_bridging_segments (test_pipeline.Pipeline.test_no_bridging_segments) ... ok
+test_projection_roundtrip (test_pipeline.Pipeline.test_projection_roundtrip) ... ok
+test_raster_sample_and_nodata (test_pipeline.Pipeline.test_raster_sample_and_nodata) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.018s
+
+OK

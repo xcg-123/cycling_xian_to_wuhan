@@ -1,0 +1,27 @@
+{
+  "status": "required additions only; not applied; preserve existing rules",
+  "phase_2_minimum": [
+    "lbs.amap.com",
+    "restapi.amap.com",
+    "www.amap.com",
+    "www.imxingzhe.com",
+    "api.openstreetmap.org",
+    "www.openstreetmap.org",
+    "wiki.openstreetmap.org",
+    "overpass-api.de",
+    "download.geofabrik.de"
+  ],
+  "optional_after_product_selection": [
+    "brouter.de",
+    "openrouteservice.org",
+    "api.openrouteservice.org",
+    "dataspace.copernicus.eu",
+    "www.earthdata.nasa.gov",
+    "api.opentopodata.org",
+    "www.cma.gov.cn",
+    "jtyst.shaanxi.gov.cn",
+    "jtt.hubei.gov.cn",
+    "jtyst.henan.gov.cn"
+  ],
+  "note": "Redirect/download hosts may need separate review. API keys and account entitlements remain separate."
+}

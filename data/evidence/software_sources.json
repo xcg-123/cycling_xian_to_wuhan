@@ -1,0 +1,67 @@
+[
+  {
+    "id": "gpxpy_readme",
+    "url": "https://raw.githubusercontent.com/tkrajina/gpxpy/master/README.md",
+    "final_url": "https://raw.githubusercontent.com/tkrajina/gpxpy/master/README.md",
+    "checked_at_utc": "2026-11-10T14:18:07.452073+00:00",
+    "http_status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "bytes": 5303,
+    "truncated": false,
+    "sha256": "496aa14ef97512c5d8f39b47282400d2a324c98ce1ec582a61716581c7a7629d",
+    "error": null,
+    "evidence": "data/evidence/gpxpy_readme.txt"
+  },
+  {
+    "id": "osmnx_readme",
+    "url": "https://raw.githubusercontent.com/gboeing/osmnx/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/gboeing/osmnx/main/README.md",
+    "checked_at_utc": "2026-11-10T14:18:07.452905+00:00",
+    "http_status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "bytes": 2558,
+    "truncated": false,
+    "sha256": "f08a92c96d4eedde255e1ab8a9117012e0fe473b07f0a279f69050786cea8bbc",
+    "error": null,
+    "evidence": "data/evidence/osmnx_readme.txt"
+  },
+  {
+    "id": "brouter_readme",
+    "url": "https://raw.githubusercontent.com/abrensch/brouter/master/README.md",
+    "final_url": "https://raw.githubusercontent.com/abrensch/brouter/master/README.md",
+    "checked_at_utc": "2026-11-10T14:18:07.453306+00:00",
+    "http_status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "bytes": 8615,
+    "truncated": false,
+    "sha256": "2a330259286b2ba7a64969c9001790c5d0e45820984b95bff383799850e8083f",
+    "error": null,
+    "evidence": "data/evidence/brouter_readme.txt"
+  },
+  {
+    "id": "brouter_road_profile",
+    "url": "https://raw.githubusercontent.com/abrensch/brouter/master/misc/profiles2/fastbike.brf",
+    "final_url": "https://raw.githubusercontent.com/abrensch/brouter/master/misc/profiles2/fastbike.brf",
+    "checked_at_utc": "2026-11-10T14:18:07.453732+00:00",
+    "http_status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "bytes": 15984,
+    "truncated": false,
+    "sha256": "e8e38c817f5c4f85066cf5282bad9ce29366e8b17c05b1ce32282ab44f910cf7",
+    "error": null,
+    "evidence": "data/evidence/brouter_road_profile.txt"
+  },
+  {
+    "id": "rasterio_readme",
+    "url": "https://raw.githubusercontent.com/rasterio/rasterio/main/README.rst",
+    "final_url": "https://raw.githubusercontent.com/rasterio/rasterio/main/README.rst",
+    "checked_at_utc": "2026-11-10T14:18:07.751864+00:00",
+    "http_status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "bytes": 6346,
+    "truncated": false,
+    "sha256": "40072b111231730c66bd253450e7fd16c119289f0f25095e503a128b57576a7d",
+    "error": null,
+    "evidence": "data/evidence/rasterio_readme.txt"
+  }
+]

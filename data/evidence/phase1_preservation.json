@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-11-10T14:26:26.697460+00:00",
+  "existing_files_reviewed": 44,
+  "secret_scan": "No matches for private-key blocks, GitHub/AWS token patterns or literal long secret assignments; manual review also performed. Not a formal guarantee.",
+  "historical_response_hashes": "25/25 match",
+  "tests": "7 passed; no skips",
+  "pip_check": "No broken requirements found",
+  "excluded": [
+    ".venv",
+    "__pycache__",
+    ".env and *.key"
+  ],
+  "third_party_licenses": "Added upstream license texts and attribution before remote publication",
+  "network_replay": "Full 20-request replay intentionally deferred; representative probes follow in phase two."
+}

@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-11-10T14:46:45.006Z",
+  "environment_id": "ccarenv_b64_Y2NhcmVudl9kOGYzN2YyODI4ZjQ4MTkxOTE2ZGU2NmJkNTg5M2E3Nw",
+  "observations_current": true,
+  "spec_revision": "1",
+  "observed_spec_revision": "1",
+  "network_policy": {
+    "mode": "restricted",
+    "state": "enforced",
+    "custom_allowed_hosts": [],
+    "target_hosts": {
+      "restapi.amap.com": false,
+      "lbs.amap.com": false,
+      "api.openstreetmap.org": false
+    }
+  },
+  "configured_secret_count": 0,
+  "configured_runtime_variable_count": 0,
+  "AMAP_API_KEY_present": false,
+  "credential_values_inspected": false,
+  "credentialed_request_attempted": false,
+  "http_secret_query_substitution_verified": false,
+  "draft_read": {
+    "error_code": "INVALID_ARGUMENT",
+    "message": "The current environment draft could not be verified. Retry the read before editing the configuration."
+  },
+  "real_route_received": false,
+  "real_gpx_generated": false,
+  "coordinate_conversion_verified": false
+}

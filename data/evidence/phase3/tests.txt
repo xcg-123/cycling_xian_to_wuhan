@@ -1,0 +1,24 @@
+Run at UTC: 2026-11-10T14:45:12.022586+00:00
+test_distance_and_missing_height (test_pipeline.Pipeline.test_distance_and_missing_height) ... ok
+test_elevation_gain_loss (test_pipeline.Pipeline.test_elevation_gain_loss) ... ok
+test_empty_rejected (test_pipeline.Pipeline.test_empty_rejected) ... ok
+test_graph_restriction_filter (test_pipeline.Pipeline.test_graph_restriction_filter) ... ok
+test_no_bridging_segments (test_pipeline.Pipeline.test_no_bridging_segments) ... ok
+test_projection_roundtrip (test_pipeline.Pipeline.test_projection_roundtrip) ... ok
+test_raster_sample_and_nodata (test_pipeline.Pipeline.test_raster_sample_and_nodata) ... ok
+test_business_error (test_route_pipeline.Routes.test_business_error) ... ok
+test_distance_disagreement (test_route_pipeline.Routes.test_distance_disagreement) ... ok
+test_gap_not_bridged (test_route_pipeline.Routes.test_gap_not_bridged) ... ok
+test_gcj_gpx_refused (test_route_pipeline.Routes.test_gcj_gpx_refused) ... ok
+test_missing_polyline (test_route_pipeline.Routes.test_missing_polyline) ... ok
+test_redirect_refused (test_route_pipeline.Routes.test_redirect_refused) ... ok
+test_reject_nan (test_route_pipeline.Routes.test_reject_nan) ... ok
+test_secret_redaction (test_route_pipeline.Routes.test_secret_redaction) ... ok
+test_sparse_edge (test_route_pipeline.Routes.test_sparse_edge) ... ok
+test_v5_steps_and_distance (test_route_pipeline.Routes.test_v5_steps_and_distance) ... ok
+test_wgs84_synthetic_roundtrip (test_route_pipeline.Routes.test_wgs84_synthetic_roundtrip) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.025s
+
+OK

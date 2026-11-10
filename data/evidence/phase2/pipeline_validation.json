@@ -1,0 +1,32 @@
+{
+  "time_utc": "2026-11-10T14:30:17.944499+00:00",
+  "unit_tests": {
+    "passed": 18,
+    "failed": 0,
+    "skipped": 0
+  },
+  "synthetic_cli_gpx_roundtrip": {
+    "points": 3,
+    "segments": 1,
+    "distance_km": 0.223,
+    "missing_elevation_points": 3,
+    "elevation_edge_coverage": 0.0,
+    "raw_ascent_m": null,
+    "raw_descent_m": null,
+    "edges_over_1km_review": [],
+    "notes": [
+      "Distance sums within each track segment only; gaps between segments are not bridged.",
+      "Input must be WGS84; GPX cannot reliably declare GCJ-02.",
+      "Sparse-point distances underestimate curves; long edges require review.",
+      "Raw elevation sums are noise-sensitive and partial if elevations are missing. No road legality or surface suitability inference."
+    ]
+  },
+  "amap_missing_key_guard": {
+    "exit": 2,
+    "output_created": false
+  },
+  "real_road_track_received": false,
+  "real_route_gpx_generated": false,
+  "gpx_xsd_validation": "not performed; XML/gpxpy structural roundtrip only",
+  "synthetic_file": "temporary directory, deleted; never a real route"
+}

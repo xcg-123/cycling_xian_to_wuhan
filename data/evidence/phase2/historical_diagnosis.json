@@ -1,0 +1,126 @@
+{
+  "checked_at_utc": "2026-11-10T14:33:30.085900+00:00",
+  "note": "Current enforced policy compared with historical requests; only three previously blocked targets were freshly probed.",
+  "rows": [
+    {
+      "id": "amap_docs",
+      "host": "lbs.amap.com",
+      "historical_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "allowed_in_current_effective_policy": false
+    },
+    {
+      "id": "amap_v5",
+      "host": "lbs.amap.com",
+      "historical_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "allowed_in_current_effective_policy": false
+    },
+    {
+      "id": "amap_web",
+      "host": "www.amap.com",
+      "historical_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "allowed_in_current_effective_policy": false
+    },
+    {
+      "id": "amap_api_no_key",
+      "host": "restapi.amap.com",
+      "historical_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "allowed_in_current_effective_policy": false
+    },
+    {
+      "id": "xingzhe",
+      "host": "www.imxingzhe.com",
+      "historical_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "allowed_in_current_effective_policy": false
+    },
+    {
+      "id": "xingzhe_help",
+      "host": "www.imxingzhe.com",
+      "historical_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "allowed_in_current_effective_policy": false
+    },
+    {
+      "id": "osm_api",
+      "host": "api.openstreetmap.org",
+      "historical_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "allowed_in_current_effective_policy": false
+    },
+    {
+      "id": "osm_wiki",
+      "host": "wiki.openstreetmap.org",
+      "historical_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "allowed_in_current_effective_policy": false
+    },
+    {
+      "id": "osm_copyright",
+      "host": "www.openstreetmap.org",
+      "historical_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "allowed_in_current_effective_policy": false
+    },
+    {
+      "id": "overpass",
+      "host": "overpass-api.de",
+      "historical_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "allowed_in_current_effective_policy": false
+    },
+    {
+      "id": "geofabrik",
+      "host": "download.geofabrik.de",
+      "historical_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "allowed_in_current_effective_policy": false
+    },
+    {
+      "id": "copernicus",
+      "host": "dataspace.copernicus.eu",
+      "historical_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "allowed_in_current_effective_policy": false
+    },
+    {
+      "id": "opentopodata",
+      "host": "api.opentopodata.org",
+      "historical_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "allowed_in_current_effective_policy": false
+    },
+    {
+      "id": "srtm",
+      "host": "www.earthdata.nasa.gov",
+      "historical_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "allowed_in_current_effective_policy": false
+    },
+    {
+      "id": "brouter",
+      "host": "brouter.de",
+      "historical_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "allowed_in_current_effective_policy": false
+    },
+    {
+      "id": "ors",
+      "host": "openrouteservice.org",
+      "historical_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "allowed_in_current_effective_policy": false
+    },
+    {
+      "id": "weather",
+      "host": "www.cma.gov.cn",
+      "historical_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "allowed_in_current_effective_policy": false
+    },
+    {
+      "id": "shaanxi_roads",
+      "host": "jtyst.shaanxi.gov.cn",
+      "historical_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "allowed_in_current_effective_policy": false
+    },
+    {
+      "id": "hubei_roads",
+      "host": "jtt.hubei.gov.cn",
+      "historical_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "allowed_in_current_effective_policy": false
+    },
+    {
+      "id": "henan_roads",
+      "host": "jtyst.henan.gov.cn",
+      "historical_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "allowed_in_current_effective_policy": false
+    }
+  ]
+}

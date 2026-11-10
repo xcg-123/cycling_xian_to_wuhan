@@ -4,3 +4,6 @@ __pycache__/
 .env.*
 !.env.example
 *.key
+# Private route imports and credentialed raw responses stay local until reviewed.
+data/private/
+data/incoming/

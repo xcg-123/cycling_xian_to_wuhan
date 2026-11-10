@@ -1,0 +1,77 @@
+{
+  "phase": "anonymous connectivity; no API authentication attempted",
+  "policy_mode": "restricted",
+  "probes": [
+    {
+      "id": "amap_v5_no_key",
+      "url": "https://restapi.amap.com/v5/direction/bicycling?origin=108.980000,34.250000&destination=108.990000,34.250000&show_fields=polyline",
+      "time_utc": "2026-11-10T14:27:09.265754+00:00",
+      "curl_exit": 56,
+      "http_connect": 403,
+      "http_code": 0,
+      "ssl_verify_result": 0,
+      "headers": [
+        "HTTP/1.1 403 Forbidden",
+        "content-type: text/plain",
+        "server: envoy"
+      ],
+      "error": "curl: (56) CONNECT tunnel failed, response 403",
+      "body_excerpt": "",
+      "startup_policy_allows_host": false
+    },
+    {
+      "id": "amap_docs",
+      "url": "https://lbs.amap.com/api/webservice/guide/api/newroute",
+      "time_utc": "2026-11-10T14:27:09.279138+00:00",
+      "curl_exit": 56,
+      "http_connect": 403,
+      "http_code": 0,
+      "ssl_verify_result": 0,
+      "headers": [
+        "HTTP/1.1 403 Forbidden",
+        "content-type: text/plain",
+        "server: envoy"
+      ],
+      "error": "curl: (56) CONNECT tunnel failed, response 403",
+      "body_excerpt": "",
+      "startup_policy_allows_host": false
+    },
+    {
+      "id": "osm_small_bbox",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=108.979,34.248,108.981,34.250",
+      "time_utc": "2026-11-10T14:27:09.293538+00:00",
+      "curl_exit": 56,
+      "http_connect": 403,
+      "http_code": 0,
+      "ssl_verify_result": 0,
+      "headers": [
+        "HTTP/1.1 403 Forbidden",
+        "content-type: text/plain",
+        "server: envoy"
+      ],
+      "error": "curl: (56) CONNECT tunnel failed, response 403",
+      "body_excerpt": "",
+      "startup_policy_allows_host": false
+    },
+    {
+      "id": "allowed_control",
+      "url": "https://raw.githubusercontent.com/gboeing/osmnx/main/README.md",
+      "time_utc": "2026-11-10T14:27:09.541061+00:00",
+      "curl_exit": 0,
+      "http_connect": 200,
+      "http_code": 200,
+      "ssl_verify_result": 0,
+      "headers": [
+        "HTTP/1.1 200 OK",
+        "server: envoy",
+        "HTTP/2 200 ",
+        "content-type: text/plain; charset=utf-8",
+        "x-envoy-upstream-service-time: 203",
+        "server: envoy"
+      ],
+      "error": "",
+      "body_excerpt": "# OSMnx\n\n[![PyPI Version](https://badge.fury.io/py/osmnx.svg)](https://pypi.org/project/osmnx/)\n[![PyPI Downloads](https://static.pepy.tech/personalized-badge/osmnx?period=total&units=international_system&left_color=grey&right_color=brightgreen&left_text=downloads)](https://pepy.tech/project/osmnx)\n[![Documentation Status](https://readthedocs.org/projects/osmnx/badge/?version=latest)](https://osmnx.readthedocs.io/)\n[![Build Status](https://github.com/gboeing/osmnx/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/gboeing/osmnx/actions/workflows/ci.yml)\n[![Coverage Status](https://codecov.io/gh/gboeing/osmnx/branch/main/graph/badge.svg)](https://codecov.io/gh/gboeing/osmnx)\n\n**OSMnx** is a Python package to easily download, model, analyze, and visualize street networks and other geospatial features from OpenStreetMap. You can download and model walking, driving, or biking networks with a single line of code then analyze and visualize them. You can just as easily work w",
+      "startup_policy_allows_host": true
+    }
+  ]
+}

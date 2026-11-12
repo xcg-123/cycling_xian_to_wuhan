@@ -27,7 +27,7 @@ def main():
     if not key: p.exit(2,'AMAP_API_KEY is missing; configure securely outside Git.\n')
     dest=pathlib.Path(a.output)
     if dest.exists(): p.error('Output exists; use a fresh path')
-    params=dict(key=key,origin=a.origin,destination=a.destination,show_fields='polyline')
+    params=dict(key=key,origin=a.origin,destination=a.destination,show_fields='polyline,navi,cost')
     url=ENDPOINT+'?'+urllib.parse.urlencode(params)
     try:
         opener=urllib.request.build_opener(NoRedirect())

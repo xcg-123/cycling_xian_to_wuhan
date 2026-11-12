@@ -1,0 +1,214 @@
+{
+  "route": {
+    "source": "OpenStreetMap contributors; API way geometry ONLY, NOT a bicycle route",
+    "source_url": "https://api.openstreetmap.org/api/0.6/map?bbox=108.975,34.245,108.985,34.255",
+    "retrieved_at_utc": "2026-11-10T15:10:12.148974+00:00",
+    "raw_sha256": "8aa84baa3d0ea52cbc3f8235bfff574df5a3c0dd26c17ba0bfd9785396afa489",
+    "source_crs": "WGS84",
+    "coordinate_processing": "Identity: OSM lon/lat retained; no GCJ-02 transform",
+    "segments": [
+      [
+        [
+          108.9833887,
+          34.2433615
+        ],
+        [
+          108.9833755,
+          34.2448973
+        ],
+        [
+          108.9833766,
+          34.2465791
+        ]
+      ],
+      [
+        [
+          108.9833766,
+          34.2465791
+        ],
+        [
+          108.9834045,
+          34.2485109
+        ],
+        [
+          108.9834042,
+          34.2494921
+        ],
+        [
+          108.983423,
+          34.2524552
+        ],
+        [
+          108.9834234,
+          34.2525241
+        ],
+        [
+          108.9834224,
+          34.2525994
+        ]
+      ],
+      [
+        [
+          108.9834224,
+          34.2525994
+        ],
+        [
+          108.9834252,
+          34.2530832
+        ],
+        [
+          108.9834592,
+          34.2551755
+        ],
+        [
+          108.9834095,
+          34.2576986
+        ],
+        [
+          108.9834093,
+          34.2585306
+        ],
+        [
+          108.9834035,
+          34.2595627
+        ],
+        [
+          108.9834017,
+          34.259659
+        ],
+        [
+          108.9833915,
+          34.2608624
+        ],
+        [
+          108.9833903,
+          34.2609454
+        ],
+        [
+          108.9833888,
+          34.2610517
+        ],
+        [
+          108.9833871,
+          34.2611235
+        ],
+        [
+          108.9833875,
+          34.2612481
+        ],
+        [
+          108.9833878,
+          34.2613331
+        ],
+        [
+          108.9834051,
+          34.2656098
+        ],
+        [
+          108.9834034,
+          34.2659142
+        ],
+        [
+          108.9834185,
+          34.2685295
+        ]
+      ]
+    ],
+    "roads": [
+      {
+        "osm_way_id": "263609699",
+        "osm_version": "12",
+        "osm_timestamp": "2024-04-08T06:14:59Z",
+        "tags": {
+          "bicycle": "yes",
+          "cycleway": "opposite_track",
+          "highway": "secondary",
+          "name": "兴庆路",
+          "oneway": "yes"
+        },
+        "node_ids": [
+          "1557695587",
+          "3947307827",
+          "3908906513"
+        ],
+        "bicycle_permission": "tagged_yes"
+      },
+      {
+        "osm_way_id": "763969650",
+        "osm_version": "7",
+        "osm_timestamp": "2024-04-08T06:14:59Z",
+        "tags": {
+          "highway": "secondary",
+          "name": "兴庆路",
+          "oneway": "yes"
+        },
+        "node_ids": [
+          "3908906513",
+          "9542772406",
+          "7137314503",
+          "11596910382",
+          "7137274059",
+          "9021561720"
+        ],
+        "bicycle_permission": "unknown"
+      },
+      {
+        "osm_way_id": "763969656",
+        "osm_version": "9",
+        "osm_timestamp": "2026-05-19T16:20:00Z",
+        "tags": {
+          "highway": "secondary",
+          "name": "兴庆路",
+          "oneway": "yes"
+        },
+        "node_ids": [
+          "9021561720",
+          "9021561719",
+          "11524792203",
+          "7137274069",
+          "11524792257",
+          "11524792377",
+          "7137314592",
+          "11524792119",
+          "11524792079",
+          "7137314508",
+          "7137314617",
+          "11524792093",
+          "11524792120",
+          "7137314564",
+          "7137314616",
+          "7137314653"
+        ],
+        "bicycle_permission": "unknown"
+      }
+    ],
+    "test_only": true,
+    "attribution": "© OpenStreetMap contributors",
+    "license": "ODbL 1.0 https://opendatacommons.org/licenses/odbl/1-0/",
+    "limitations": [
+      "No routing algorithm or current bicycle access certification.",
+      "Missing surface and bicycle tags remain unknown.",
+      "No independent positional accuracy verification or elevation data."
+    ]
+  },
+  "audit": {
+    "source_crs": "WGS84",
+    "point_count": 25,
+    "segment_count": 3,
+    "geometry_distance_m": 2791.911,
+    "distance_metric": "WGS84 geodesic",
+    "reported_distance_m": null,
+    "relative_distance_difference": null,
+    "join_gaps": [],
+    "long_edges": [],
+    "duplicate_adjacent_points": 0,
+    "thresholds": {
+      "max_edge_m": 1000,
+      "max_join_gap_m": 5,
+      "max_distance_difference": 0.1
+    },
+    "geometry_screen_pass": true,
+    "distance_crosscheck_available": false,
+    "warning": "Numerical screen only; thresholds are review triggers, not a road safety guarantee. Segment gaps are never bridged."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "url": "https://www.topografix.com/GPX/1/1/gpx.xsd",
+  "time_utc": "2026-11-10T15:13:41.906914+00:00",
+  "error_type": "URLError",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+}

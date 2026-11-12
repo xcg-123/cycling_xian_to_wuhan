@@ -1,0 +1,91 @@
+{
+  "phase": "anonymous connectivity; no API authentication attempted",
+  "policy_mode": "restricted",
+  "probes": [
+    {
+      "id": "amap_v5_no_key",
+      "url": "https://restapi.amap.com/v5/direction/bicycling?origin=108.980000,34.250000&destination=108.990000,34.250000&show_fields=polyline",
+      "time_utc": "2026-11-10T15:08:41.510412+00:00",
+      "curl_exit": 0,
+      "http_connect": 200,
+      "http_code": 200,
+      "ssl_verify_result": 0,
+      "headers": [
+        "HTTP/1.1 200 OK",
+        "server: envoy",
+        "HTTP/2 200 ",
+        "server: envoy",
+        "content-type: application/json",
+        "x-envoy-upstream-service-time: 2835"
+      ],
+      "error": "",
+      "startup_policy_allows_host": true,
+      "business_response": {
+        "status": "0",
+        "info": "INVALID_USER_KEY",
+        "infocode": "10001"
+      },
+      "response_body_publication": "omitted to minimize third-party page/contributor metadata"
+    },
+    {
+      "id": "amap_docs",
+      "url": "https://lbs.amap.com/api/webservice/guide/api/newroute",
+      "time_utc": "2026-11-10T15:08:45.060741+00:00",
+      "curl_exit": 0,
+      "http_connect": 200,
+      "http_code": 200,
+      "ssl_verify_result": 0,
+      "headers": [
+        "HTTP/1.1 200 OK",
+        "server: envoy",
+        "HTTP/2 200 ",
+        "content-type: text/html; charset=utf-8",
+        "server: envoy",
+        "x-envoy-upstream-service-time: 2383"
+      ],
+      "error": "",
+      "startup_policy_allows_host": true,
+      "response_body_publication": "omitted to minimize third-party page/contributor metadata"
+    },
+    {
+      "id": "osm_small_bbox",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=108.979,34.248,108.981,34.250",
+      "time_utc": "2026-11-10T15:08:46.001118+00:00",
+      "curl_exit": 0,
+      "http_connect": 200,
+      "http_code": 200,
+      "ssl_verify_result": 0,
+      "headers": [
+        "HTTP/1.1 200 OK",
+        "server: envoy",
+        "HTTP/2 200 ",
+        "server: envoy",
+        "content-type: application/xml; charset=utf-8",
+        "x-envoy-upstream-service-time: 541"
+      ],
+      "error": "",
+      "startup_policy_allows_host": true,
+      "response_body_publication": "omitted to minimize third-party page/contributor metadata"
+    },
+    {
+      "id": "allowed_control",
+      "url": "https://raw.githubusercontent.com/gboeing/osmnx/main/README.md",
+      "time_utc": "2026-11-10T15:08:46.397794+00:00",
+      "curl_exit": 0,
+      "http_connect": 200,
+      "http_code": 200,
+      "ssl_verify_result": 0,
+      "headers": [
+        "HTTP/1.1 200 OK",
+        "server: envoy",
+        "HTTP/2 200 ",
+        "content-type: text/plain; charset=utf-8",
+        "x-envoy-upstream-service-time: 329",
+        "server: envoy"
+      ],
+      "error": "",
+      "startup_policy_allows_host": true,
+      "response_body_publication": "omitted to minimize third-party page/contributor metadata"
+    }
+  ]
+}

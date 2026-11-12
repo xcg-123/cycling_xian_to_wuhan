@@ -1,0 +1,30 @@
+{
+  "url": "https://api.openstreetmap.org/api/0.6/map?bbox=108.975,34.245,108.985,34.255",
+  "time_utc": "2026-11-10T15:10:12.148974+00:00",
+  "http_status": 200,
+  "bytes": 1277240,
+  "sha256": "8aa84baa3d0ea52cbc3f8235bfff574df5a3c0dd26c17ba0bfd9785396afa489",
+  "nodes": 5222,
+  "ways": 726,
+  "attribution": {
+    "copyright": "OpenStreetMap and contributors",
+    "attribution": "http://www.openstreetmap.org/copyright",
+    "license": "http://opendatacommons.org/licenses/odbl/1-0/"
+  },
+  "highway_counts": {
+    "unclassified": 16,
+    "service": 76,
+    "footway": 161,
+    "residential": 6,
+    "track": 8,
+    "tertiary": 2,
+    "secondary": 5,
+    "path": 77,
+    "primary": 7,
+    "steps": 5,
+    "tertiary_link": 8,
+    "primary_link": 1,
+    "pedestrian": 2,
+    "cycleway": 1
+  }
+}

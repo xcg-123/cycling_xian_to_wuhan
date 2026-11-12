@@ -1,0 +1,35 @@
+{
+  "observed_at_utc": "2026-11-12T06:37:15.755Z",
+  "environment_id": "ccarenv_b64_Y2NhcmVudl84Zjc3NWNjNDhmOGM4MTkxYWFhMmI4NzE1YWI4ZjNjNQ",
+  "source_config_version_id": "dbfac3db117af6a4f6f9e0d059061f66fe7928a48327bf0d89b149fd604ffbde~cecfgver_6af55d7f33cc819884bbc873f86b4727",
+  "observations_current": true,
+  "observed_phase": "running",
+  "connectivity": "connected",
+  "spec_revision": "1",
+  "observed_spec_revision": "1",
+  "network_policy": {
+    "state": "enforced",
+    "mode": "restricted",
+    "custom_allowed_hosts": [
+      "api.openstreetmap.org",
+      "lbs.amap.com",
+      "resapi.amap.com",
+      "restapi.amap.com"
+    ]
+  },
+  "AMAP_API_KEY_binding": {
+    "name": "AMAP_API_KEY",
+    "target": {
+      "environment_variable": "AMAP_API_KEY",
+      "allowed_domains": [
+        "resapi.amap.com"
+      ]
+    },
+    "optional": false,
+    "state": "ready"
+  },
+  "verification_boundary": "Configuration metadata checked; no authenticated request retried because the credential destination remains misspelled. Revision 1 belongs to this new instance and must not be compared as a global version number.",
+  "runtime_variable_present_only": {
+    "AMAP_API_KEY": true
+  }
+}

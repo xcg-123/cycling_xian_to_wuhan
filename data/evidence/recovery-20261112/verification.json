@@ -1,0 +1,42 @@
+{
+  "checked_at_utc": "2026-11-12T06:36:21.290833+00:00",
+  "backup_directory": "/workspace/recovery-backups/20261112T063529Z",
+  "backup_archive_sha256": "dbf730720041320d27d199a00ab0b9567bcf98b57924f6140021c015ad229c51",
+  "backup_files_verified": 174,
+  "private_original_files": [
+    "amap-convert.metadata.json",
+    "amap-convert.text",
+    "amap-phase4.json",
+    "amap-v5-doc.metadata.json",
+    "amap-v5-doc.raw",
+    "amap-v5-doc.text",
+    "osm-sample.xml"
+  ],
+  "private_secret_pattern_hits": [],
+  "private_scan_limit": "Heuristic only; raw responses and documents remain private regardless of scan result. No secret value read from environment.",
+  "original_osm_sha256_match": true,
+  "raw_to_selected_route_exact_match": true,
+  "audit_reproduction_match": true,
+  "gpx_regeneration_exact_match": true,
+  "official_route_document_hash_match": true,
+  "tests": {
+    "passed": 23,
+    "failed": 0,
+    "skipped": 0,
+    "real_data_tests": 2,
+    "synthetic_tests": 21
+  },
+  "observed_geometry_distance_m": 2791.911,
+  "point_count": 25,
+  "segment_count": 3,
+  "road_routing_certified": false,
+  "gpx_xsd_validated": false,
+  "amap_authentication_retried": false,
+  "privacy_permissions": {
+    "private_directory": "0700",
+    "private_files": "0600",
+    "backup_directory": "0700",
+    "backup_files": "0600"
+  },
+  "backup_scope": "Local recovery copy; public artifacts additionally require Git remote sync. Private files have no verified off-instance backup."
+}

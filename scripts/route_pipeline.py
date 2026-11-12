@@ -20,6 +20,14 @@ def positive(value):
     if not math.isfinite(result) or result<=0: raise ValueError('Expected positive finite distance')
     return result
 
+def road_type(step):
+    navi=step.get('navi')
+    code=navi.get('walk_type') if isinstance(navi,dict) else None
+    if code is None: code=step.get('walk_type')
+    if code is None: return 'unknown; names are clues only'
+    labels={'0':'ordinary road','3':'underground passage','4':'pedestrian overpass','20':'stairs','21':'slope','22':'bridge','23':'tunnel','30':'ferry'}
+    return {'code':str(code),'label':labels.get(str(code),'other documented/unknown category; review required'),'basis':'provider walk_type; not an access or safety certification'}
+
 def parse_amap_v5(data,path_index=0):
     if str(data.get('status'))!='1' or str(data.get('infocode'))!='10000':
         raise ValueError('No successful v5 business response')
@@ -35,10 +43,10 @@ def parse_amap_v5(data,path_index=0):
         if len(coords)<2: raise ValueError('Step has fewer than two points')
         segments.append(coords)
         name=step.get('road_name') or step.get('road') or ''
-        roads.append({'step':i,'name':name,'distance_m':step.get('distance'),
+        roads.append({'step':i,'name':name,'distance_m':step.get('step_distance',step.get('distance')),
           'instruction':step.get('instruction'),
           'special_road_name_clue': any(word in str(name) for word in ['桥','隧道']),
-          'special_road_type':'unknown; names are clues only',
+          'special_road_type':road_type(step),
           'returned_fields':sorted(step)})
     return {'source':'AMap official v5 bicycling','source_crs':'GCJ-02',
       'path_index':path_index,'path_count':len(paths),'reported_distance_m':positive(path['distance']),
@@ -78,6 +86,8 @@ def export_gpx(route):
     if not result['geometry_screen_pass']: raise ValueError('Geometry review required before GPX export')
     g=gpxpy.gpx.GPX();g.creator='cycling_xian_to_wuhan TEST_ONLY';g.name='TEST_ONLY - NOT A VALIDATED CYCLING ITINERARY'
     g.description='Source: '+str(route['source'])+'. Road suitability and legal access unverified.'
+    for key in ['source_url','retrieved_at_utc','attribution','license']:
+        if route.get(key): g.description+=' '+key+': '+str(route[key])+'.'
     t=gpxpy.gpx.GPXTrack();g.tracks.append(t)
     for coords in route['segments']:
         s=gpxpy.gpx.GPXTrackSegment();t.segments.append(s)

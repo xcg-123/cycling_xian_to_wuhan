@@ -1,0 +1,479 @@
+{
+  "checkpoint_utc": "2026-11-12T06:57:13.268917+00:00",
+  "source": "https://restapi.amap.com/v5/direction/bicycling",
+  "source_crs": "GCJ-02",
+  "scope": "First returned official cycling path between assumed town control points; not safety approval or global shortest route. No geometry distributed.",
+  "places": {
+    "start": "陕西省西安市西安交通大学兴庆校区南门",
+    "lantian": "陕西省蓝田县人民政府",
+    "shangzhou": "陕西省商洛市商州区人民政府",
+    "danfeng": "陕西省丹凤县人民政府",
+    "shangnan": "陕西省商南县人民政府",
+    "xixia": "河南省西峡县人民政府",
+    "neixiang": "河南省内乡县人民政府",
+    "nanyang": "河南省南阳市卧龙区人民政府",
+    "tanghe": "河南省唐河县人民政府",
+    "tongbai": "河南省桐柏县人民政府",
+    "suizhou": "湖北省随州市曾都区人民政府",
+    "anlu": "湖北省安陆市人民政府",
+    "xiaogan": "湖北省孝感市孝南区人民政府",
+    "finish": "湖北省武汉市汉阳区人民政府",
+    "luanzhen": "陕西省西安市长安区滦镇街道办事处",
+    "guanghuojie": "陕西省宁陕县广货街镇人民政府",
+    "ningshan": "陕西省宁陕县人民政府",
+    "shiquan": "陕西省石泉县人民政府",
+    "hanyin": "陕西省汉阴县人民政府",
+    "ankang": "陕西省安康市汉滨区人民政府",
+    "xunyang": "陕西省旬阳市人民政府",
+    "baihe": "陕西省白河县人民政府",
+    "shiyan": "湖北省十堰市张湾区人民政府",
+    "gucheng": "湖北省谷城县人民政府",
+    "xiangyang": "湖北省襄阳市襄城区人民政府",
+    "weinan": "陕西省渭南市临渭区人民政府",
+    "huayin": "陕西省华阴市人民政府",
+    "tongguan": "陕西省潼关县人民政府",
+    "lingbao": "河南省灵宝市人民政府",
+    "lushi": "河南省卢氏县人民政府",
+    "xinye": "河南省新野县人民政府",
+    "yicheng": "湖北省宜城市人民政府",
+    "zhongxiang": "湖北省钟祥市人民政府",
+    "jingshan": "湖北省京山市人民政府",
+    "hanchuan": "湖北省汉川市人民政府"
+  },
+  "corridors": {
+    "A": {
+      "nodes": [
+        "start",
+        "lantian",
+        "shangzhou",
+        "danfeng",
+        "shangnan",
+        "xixia",
+        "neixiang",
+        "nanyang",
+        "tanghe",
+        "tongbai",
+        "suizhou",
+        "anlu",
+        "xiaogan",
+        "finish"
+      ],
+      "distance_m": 823314
+    },
+    "B": {
+      "nodes": [
+        "start",
+        "luanzhen",
+        "guanghuojie",
+        "ningshan",
+        "shiquan",
+        "hanyin",
+        "ankang",
+        "xunyang",
+        "baihe",
+        "shiyan",
+        "gucheng",
+        "xiangyang",
+        "suizhou",
+        "anlu",
+        "xiaogan",
+        "finish"
+      ],
+      "distance_m": 1104294
+    },
+    "C": {
+      "nodes": [
+        "start",
+        "weinan",
+        "huayin",
+        "tongguan",
+        "lingbao",
+        "lushi",
+        "xixia",
+        "neixiang",
+        "nanyang",
+        "tanghe",
+        "tongbai",
+        "suizhou",
+        "anlu",
+        "xiaogan",
+        "finish"
+      ],
+      "distance_m": 946285
+    },
+    "D": {
+      "nodes": [
+        "start",
+        "lantian",
+        "shangzhou",
+        "danfeng",
+        "shangnan",
+        "xixia",
+        "neixiang",
+        "nanyang",
+        "xinye",
+        "xiangyang",
+        "yicheng",
+        "zhongxiang",
+        "jingshan",
+        "hanchuan",
+        "finish"
+      ],
+      "distance_m": 886096
+    }
+  },
+  "legs": [
+    {
+      "from": "start",
+      "to": "lantian",
+      "distance_m": 42260,
+      "steps": 39,
+      "retrieved_at_utc": "2026-11-12T06:49:47.890411+00:00",
+      "private_response_path": "data/private/planning-20261112/start--lantian.json",
+      "sha256": "265a6f69e76fce6bf5f617b2c61c3111d2799682ffc69a333e5572459fe49f64"
+    },
+    {
+      "from": "lantian",
+      "to": "shangzhou",
+      "distance_m": 85413,
+      "steps": 24,
+      "retrieved_at_utc": "2026-11-12T06:49:47.891719+00:00",
+      "private_response_path": "data/private/planning-20261112/lantian--shangzhou.json",
+      "sha256": "a7d098cc706bc4227e8edb1c6380aff1ed7ba14dda100312c766de6e503f7b1f"
+    },
+    {
+      "from": "shangzhou",
+      "to": "danfeng",
+      "distance_m": 43817,
+      "steps": 7,
+      "retrieved_at_utc": "2026-11-12T06:49:51.262102+00:00",
+      "private_response_path": "data/private/planning-20261112/shangzhou--danfeng.json",
+      "sha256": "f20c27ceb4c2eac676f52c2ee141dfcf60858771a05c065a12ab7ff7ff35c621"
+    },
+    {
+      "from": "danfeng",
+      "to": "shangnan",
+      "distance_m": 60172,
+      "steps": 17,
+      "retrieved_at_utc": "2026-11-12T06:49:51.619525+00:00",
+      "private_response_path": "data/private/planning-20261112/danfeng--shangnan.json",
+      "sha256": "fef1f497bb23a07429cabae263095d6f904cea1eda6f79945ae86d54690ee5ad"
+    },
+    {
+      "from": "shangnan",
+      "to": "xixia",
+      "distance_m": 69524,
+      "steps": 13,
+      "retrieved_at_utc": "2026-11-12T06:49:54.703364+00:00",
+      "private_response_path": "data/private/planning-20261112/shangnan--xixia.json",
+      "sha256": "799c20bb5922ec1f175ed859d4c588bf4677540526b709f3a9a7c7610706e916"
+    },
+    {
+      "from": "xixia",
+      "to": "neixiang",
+      "distance_m": 53537,
+      "steps": 20,
+      "retrieved_at_utc": "2026-11-12T06:49:55.136208+00:00",
+      "private_response_path": "data/private/planning-20261112/xixia--neixiang.json",
+      "sha256": "4d7f282fbfa5b694644df0db8dc31113145a2b76cf4655833e419992d8f55357"
+    },
+    {
+      "from": "neixiang",
+      "to": "nanyang",
+      "distance_m": 68033,
+      "steps": 35,
+      "retrieved_at_utc": "2026-11-12T06:49:57.457661+00:00",
+      "private_response_path": "data/private/planning-20261112/neixiang--nanyang.json",
+      "sha256": "061c5b70049cad7b47d096b5dd7b954b20c9fbf4afb0b24c889f32b03180b78b"
+    },
+    {
+      "from": "nanyang",
+      "to": "tanghe",
+      "distance_m": 48080,
+      "steps": 28,
+      "retrieved_at_utc": "2026-11-12T06:49:58.076471+00:00",
+      "private_response_path": "data/private/planning-20261112/nanyang--tanghe.json",
+      "sha256": "54c03267051e0dc763c32c7b66a68e55f54ac5cc3bf2cc733dfc0898369c45a6"
+    },
+    {
+      "from": "tanghe",
+      "to": "tongbai",
+      "distance_m": 74760,
+      "steps": 28,
+      "retrieved_at_utc": "2026-11-12T06:50:00.059947+00:00",
+      "private_response_path": "data/private/planning-20261112/tanghe--tongbai.json",
+      "sha256": "2fe508a60e263cfa71dddde3fa59a25744d13c841e8462e995946eaae3b35761"
+    },
+    {
+      "from": "tongbai",
+      "to": "suizhou",
+      "distance_m": 101567,
+      "steps": 25,
+      "retrieved_at_utc": "2026-11-12T06:50:00.696545+00:00",
+      "private_response_path": "data/private/planning-20261112/tongbai--suizhou.json",
+      "sha256": "c8a543ac06c3ebf984a7d0eb0b706b855cdb39fc3d5972c03786aaa928abe40b"
+    },
+    {
+      "from": "suizhou",
+      "to": "anlu",
+      "distance_m": 69098,
+      "steps": 47,
+      "retrieved_at_utc": "2026-11-12T06:50:02.568276+00:00",
+      "private_response_path": "data/private/planning-20261112/suizhou--anlu.json",
+      "sha256": "0c7d1cd34825182713e08b9339b76fbfce8a4d7b4f5ed0eaca1422fa78cdd6b8"
+    },
+    {
+      "from": "anlu",
+      "to": "xiaogan",
+      "distance_m": 47847,
+      "steps": 36,
+      "retrieved_at_utc": "2026-11-12T06:50:03.806733+00:00",
+      "private_response_path": "data/private/planning-20261112/anlu--xiaogan.json",
+      "sha256": "a0ba004b85981e49babb50d626df9a95120307974c050825dc7fe71da358515d"
+    },
+    {
+      "from": "xiaogan",
+      "to": "finish",
+      "distance_m": 59206,
+      "steps": 78,
+      "retrieved_at_utc": "2026-11-12T06:50:05.061102+00:00",
+      "private_response_path": "data/private/planning-20261112/xiaogan--finish.json",
+      "sha256": "4f76218f2ed9945e44e0711857a42761e7671fe48f10a29a4a76d6116296e4af"
+    },
+    {
+      "from": "start",
+      "to": "luanzhen",
+      "distance_m": 28815,
+      "steps": 37,
+      "retrieved_at_utc": "2026-11-12T06:50:06.400946+00:00",
+      "private_response_path": "data/private/planning-20261112/start--luanzhen.json",
+      "sha256": "be9671e827621b40d75e356f8e42d0b3c419d3bce88e5c1f1f582bba32cdc57a"
+    },
+    {
+      "from": "luanzhen",
+      "to": "guanghuojie",
+      "distance_m": 50706,
+      "steps": 14,
+      "retrieved_at_utc": "2026-11-12T06:50:07.876740+00:00",
+      "private_response_path": "data/private/planning-20261112/luanzhen--guanghuojie.json",
+      "sha256": "2d381a3cf0cb5cf90de6ef1bab593ca1963194f2bc1a7d76315f47c348901fb6"
+    },
+    {
+      "from": "guanghuojie",
+      "to": "ningshan",
+      "distance_m": 110485,
+      "steps": 6,
+      "retrieved_at_utc": "2026-11-12T06:50:08.988157+00:00",
+      "private_response_path": "data/private/planning-20261112/guanghuojie--ningshan.json",
+      "sha256": "a7e297e2caae283d394c4f0fb2f463feb8831133c858f2569e91ccf5bb88c648"
+    },
+    {
+      "from": "ningshan",
+      "to": "shiquan",
+      "distance_m": 70055,
+      "steps": 29,
+      "retrieved_at_utc": "2026-11-12T06:50:10.844631+00:00",
+      "private_response_path": "data/private/planning-20261112/ningshan--shiquan.json",
+      "sha256": "61876313d6c3cdcc4f7897e1c33aa9ba92a87b5c3fe5fcccea4dc9ca0d51d2ac"
+    },
+    {
+      "from": "shiquan",
+      "to": "hanyin",
+      "distance_m": 33075,
+      "steps": 25,
+      "retrieved_at_utc": "2026-11-12T06:50:11.862411+00:00",
+      "private_response_path": "data/private/planning-20261112/shiquan--hanyin.json",
+      "sha256": "32d93c93073c21261effaf3e8ccf6377d866b33a6121af85372c83424f744949"
+    },
+    {
+      "from": "hanyin",
+      "to": "ankang",
+      "distance_m": 60549,
+      "steps": 26,
+      "retrieved_at_utc": "2026-11-12T06:50:13.585464+00:00",
+      "private_response_path": "data/private/planning-20261112/hanyin--ankang.json",
+      "sha256": "1d9a2498d6a79a2419077d8b888f842863a76fdd4a439538598f396be299dd43"
+    },
+    {
+      "from": "ankang",
+      "to": "xunyang",
+      "distance_m": 51778,
+      "steps": 34,
+      "retrieved_at_utc": "2026-11-12T06:50:14.355197+00:00",
+      "private_response_path": "data/private/planning-20261112/ankang--xunyang.json",
+      "sha256": "9400b3975cc6060a0ba2b03f3225cfcee28aebbb558a5ce359d45a58075e2792"
+    },
+    {
+      "from": "xunyang",
+      "to": "baihe",
+      "distance_m": 103072,
+      "steps": 33,
+      "retrieved_at_utc": "2026-11-12T06:50:16.006399+00:00",
+      "private_response_path": "data/private/planning-20261112/xunyang--baihe.json",
+      "sha256": "d426153d8fcdc534fda0cf6503bff27fd67a07ea3f6293e99f69d9211865ad53"
+    },
+    {
+      "from": "baihe",
+      "to": "shiyan",
+      "distance_m": 91950,
+      "steps": 34,
+      "retrieved_at_utc": "2026-11-12T06:50:16.844003+00:00",
+      "private_response_path": "data/private/planning-20261112/baihe--shiyan.json",
+      "sha256": "fed85bb90bdca4af202346a0acaf383b5cbde233f7fae12b6d335c8b9d90516e"
+    },
+    {
+      "from": "shiyan",
+      "to": "gucheng",
+      "distance_m": 111857,
+      "steps": 52,
+      "retrieved_at_utc": "2026-11-12T06:50:18.913498+00:00",
+      "private_response_path": "data/private/planning-20261112/shiyan--gucheng.json",
+      "sha256": "11d2401a08b632f8210ed383e99a8a0bbe178104068f95443a28ae4a80da6476"
+    },
+    {
+      "from": "gucheng",
+      "to": "xiangyang",
+      "distance_m": 63812,
+      "steps": 25,
+      "retrieved_at_utc": "2026-11-12T06:50:19.645058+00:00",
+      "private_response_path": "data/private/planning-20261112/gucheng--xiangyang.json",
+      "sha256": "1a21ca5ad0b833371c2c39ff7f2ec3ee446f8dc49d8bab439bf73186c452401b"
+    },
+    {
+      "from": "xiangyang",
+      "to": "suizhou",
+      "distance_m": 151989,
+      "steps": 81,
+      "retrieved_at_utc": "2026-11-12T06:50:21.742196+00:00",
+      "private_response_path": "data/private/planning-20261112/xiangyang--suizhou.json",
+      "sha256": "2d4c279ce1639d9111fb1a64cafb785f96200b6a921e657aeaafb50095ede449"
+    },
+    {
+      "from": "start",
+      "to": "weinan",
+      "distance_m": 63431,
+      "steps": 42,
+      "retrieved_at_utc": "2026-11-12T06:50:22.134626+00:00",
+      "private_response_path": "data/private/planning-20261112/start--weinan.json",
+      "sha256": "43c18862d84186c67d5e7b6784f1181b94cb14fba794308e43de7f6efc9a142c"
+    },
+    {
+      "from": "weinan",
+      "to": "huayin",
+      "distance_m": 57757,
+      "steps": 12,
+      "retrieved_at_utc": "2026-11-12T06:50:24.494928+00:00",
+      "private_response_path": "data/private/planning-20261112/weinan--huayin.json",
+      "sha256": "3c85234423379411eb9b9f454598a3f5a7064e0b89c56949b0a89738084a27be"
+    },
+    {
+      "from": "huayin",
+      "to": "tongguan",
+      "distance_m": 18002,
+      "steps": 16,
+      "retrieved_at_utc": "2026-11-12T06:50:24.968009+00:00",
+      "private_response_path": "data/private/planning-20261112/huayin--tongguan.json",
+      "sha256": "6bd49bafc3b30618893ff4f058ababff6e8c3f3c4e6c3fe5b08c7d9df13d24ff"
+    },
+    {
+      "from": "tongguan",
+      "to": "lingbao",
+      "distance_m": 70445,
+      "steps": 24,
+      "retrieved_at_utc": "2026-11-12T06:50:26.944298+00:00",
+      "private_response_path": "data/private/planning-20261112/tongguan--lingbao.json",
+      "sha256": "718b3b76128eff0fb4be893ff851d4c0059d9bd2c04a09c7f4a98cb1ce53e5c4"
+    },
+    {
+      "from": "lingbao",
+      "to": "lushi",
+      "distance_m": 72118,
+      "steps": 30,
+      "retrieved_at_utc": "2026-11-12T06:50:26.994743+00:00",
+      "private_response_path": "data/private/planning-20261112/lingbao--lushi.json",
+      "sha256": "4399a6c672f9cf4ae8f57a7ac029cd4c4c3fd5a2dda6fa151d570adc95846c7f"
+    },
+    {
+      "from": "lushi",
+      "to": "xixia",
+      "distance_m": 142404,
+      "steps": 36,
+      "retrieved_at_utc": "2026-11-12T06:50:29.434704+00:00",
+      "private_response_path": "data/private/planning-20261112/lushi--xixia.json",
+      "sha256": "11d7bf64c724d4a40f6af3409a0d23f8e103a11656d303a24095b6b12b8645e3"
+    },
+    {
+      "from": "nanyang",
+      "to": "xinye",
+      "distance_m": 60525,
+      "steps": 33,
+      "retrieved_at_utc": "2026-11-12T06:50:30.406795+00:00",
+      "private_response_path": "data/private/planning-20261112/nanyang--xinye.json",
+      "sha256": "58a74ac2d30329c2152e2273add536fa637d750a0aacb8118e72c4880d0997ed"
+    },
+    {
+      "from": "xinye",
+      "to": "xiangyang",
+      "distance_m": 65905,
+      "steps": 43,
+      "retrieved_at_utc": "2026-11-12T06:50:32.625235+00:00",
+      "private_response_path": "data/private/planning-20261112/xinye--xiangyang.json",
+      "sha256": "4363e2f445a6acf93a9d64d60bf11f37fd0edc451087266f2940b236f449ee89"
+    },
+    {
+      "from": "xiangyang",
+      "to": "yicheng",
+      "distance_m": 42521,
+      "steps": 30,
+      "retrieved_at_utc": "2026-11-12T06:50:32.861597+00:00",
+      "private_response_path": "data/private/planning-20261112/xiangyang--yicheng.json",
+      "sha256": "6b1ac9a078c87f44d0a2817084a3eb5400d752ef579123b98b333f88ae9abe1c"
+    },
+    {
+      "from": "yicheng",
+      "to": "zhongxiang",
+      "distance_m": 93074,
+      "steps": 46,
+      "retrieved_at_utc": "2026-11-12T06:50:35.082312+00:00",
+      "private_response_path": "data/private/planning-20261112/yicheng--zhongxiang.json",
+      "sha256": "8ada894f882e998ffa6e6c17953d1d2972f5e3e6c432e7f62ced568148ec4f7a"
+    },
+    {
+      "from": "zhongxiang",
+      "to": "jingshan",
+      "distance_m": 62349,
+      "steps": 20,
+      "retrieved_at_utc": "2026-11-12T06:50:35.289949+00:00",
+      "private_response_path": "data/private/planning-20261112/zhongxiang--jingshan.json",
+      "sha256": "dafb8ff8dbb5051bc3030cd6d6ca4d98bc6fcbdab8aeeba2e8041055f3f46a67"
+    },
+    {
+      "from": "jingshan",
+      "to": "hanchuan",
+      "distance_m": 93834,
+      "steps": 50,
+      "retrieved_at_utc": "2026-11-12T06:50:37.743920+00:00",
+      "private_response_path": "data/private/planning-20261112/jingshan--hanchuan.json",
+      "sha256": "5a7262a69501b1f356aa2bce17e787eb8cba7e265550f8a6b208ec02a57454d2"
+    },
+    {
+      "from": "hanchuan",
+      "to": "finish",
+      "distance_m": 45132,
+      "steps": 79,
+      "retrieved_at_utc": "2026-11-12T06:50:37.861943+00:00",
+      "private_response_path": "data/private/planning-20261112/hanchuan--finish.json",
+      "sha256": "28a79a60cfd771c2ebfb87fe19f89f64e7675a9931d687e75926ca8120ebec81"
+    }
+  ],
+  "coordinate_comparison": {
+    "source": "AMap official /v3/assistant/coordinate/convert coordsys=gps",
+    "retrieved_at_utc": "2026-11-12T06:49:19.260034+00:00",
+    "algorithm": "MIT coordtransform forward formula + five inverse residual iterations",
+    "control_kind": "18 explicit numeric WGS84 coordinate inputs distributed over planning region; NOT surveyed physical ground control points",
+    "count": 18,
+    "max_inverse_residual_m": 3.224428838411763
+  },
+  "elevation": "Unavailable: one OpenTopoData CONNECT 403; no ascent values inferred",
+  "release_constraint": "No known offline GPX export authorization; raw geometry private, no AMap GPX exported."
+}
